@@ -62,12 +62,12 @@ export default function Offerings() {
             <div className=" relative aspect-4/3 overflow-hidden">
               <div className="aspect-4/3 relative overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1533089862017-5614ecb352ae?w=600&q=80"
+                  src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80"
                   alt="Egg Brioche - Chef Meddie's Signature"
-                  fill // يملأ الحاوية الأب
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // يحل مشكلة حجم الصورة
+                  fill 
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
-                  priority={false} // اتركها false ليعمل الـ Lazy loading تلقائياً
+                  priority={false} 
                 />
               </div>
             </div>
