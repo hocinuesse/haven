@@ -1,4 +1,3 @@
-export const dynamic = "force-static"
 
 import Community from "@/components/Community";
 import Details from "@/components/Details";
